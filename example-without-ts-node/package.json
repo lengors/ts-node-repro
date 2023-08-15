@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "name": "example-without-ts-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lengors/ts-node-repro.git#example-without-ts-node"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lengors/ts-node-repro/issues"
+  },
+  "homepage": "https://github.com/lengors/ts-node-repro#readme",
+  "description": "Example without ts-node of bug in ts-node"
+}
